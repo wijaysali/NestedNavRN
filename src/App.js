@@ -5,14 +5,13 @@ import { createAppContainer, createSwitchNavigator } from 'react-navigation'
 import { createDrawerNavigator } from 'react-navigation-drawer'
 import { createBottomTabNavigator } from 'react-navigation-tabs'
 import { createStackNavigator } from 'react-navigation-stack'
-import Animated, { Easing } from 'react-native-reanimated';
 
-import Login from './src/components/Login'
-import AuthLoading from './src/components/AuthLoading'
-import Home from './src/components/Home'
-import Settings from './src/components/Settings'
-import ProfileSettings from './src/components/ProfileSettings'
-import { Monday, Tuesday, Wednesday } from './src/components/TabScreens'
+import Login from './components/Login'
+import AuthLoading from './components/AuthLoading'
+import Home from './components/Home'
+import Settings from './components/Settings'
+import ProfileSettings from './components/ProfileSettings'
+import { Monday, Tuesday, Wednesday } from './components/TabScreens'
 
 const WeekDays = createBottomTabNavigator(
   {
